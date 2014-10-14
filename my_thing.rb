@@ -2,8 +2,8 @@ class Bear
   attr_reader :size
   attr_accessor :color
   def initialize(size = nil, color = nil)
-   @size = size
-   @color = color 
+    @size = size
+    @color = color 
   end
 end
 
@@ -13,10 +13,10 @@ class CaptiveBear < Bear
     self.class.track_bear
   end
   def self.track_bear
-  	@counter += 1 if @counter != nil
+    @counter += 1 if @counter != nil
   end
   def self.capture(bear) 
-  	new(bear.size, bear.color)  # I'm in my own class
+    new(bear.size, bear.color)  # I'm in my own class
   end
   def self.reset_tracking
     @counter = 0
