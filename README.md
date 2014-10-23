@@ -15,6 +15,7 @@ Solutions
         * song_test.rb --> song.rb
         * playlist_test.rb --> playlist.rb
         * unique_playlist_test.rb --> unique_playlist.rb
+        * music_library_test.rb --> player.rb
 
 Documentation
 -------------
